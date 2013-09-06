@@ -29,6 +29,7 @@ module.exports = function(grunt) {
     jshint: {
       files: ['Gruntfile.js', 'public/js/app/**/*.js', '!public/js/app/**/*min.js'],
       options: {
+        camelcase: true,
         globals: {
           jQuery: true,
           console: false,
