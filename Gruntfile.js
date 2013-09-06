@@ -37,9 +37,15 @@ module.exports = function(grunt) {
           document: true
         }
       }
+    },
+    githooks: {
+      all: {
+        'pre-commit': 'test',
+      }
     }
   });
 
+  grunt.loadNpmTasks('grunt-githooks');
   grunt.loadNpmTasks('grunt-contrib-requirejs');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.registerTask('test', ['jshint']);
