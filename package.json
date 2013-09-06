@@ -1,0 +1,38 @@
+{
+  "name": "Backbone-Require-Boilerplate-Lite",
+  "title": "Backbone and Require Boilerplate Lite",
+  "description": "A Backbone.js and Require.js Boilerplate that promotes decoupling your JavaScript into modules, separating business logic from application logic using Models and Views, reusing your JavaScript between Desktop and Mobile Web versions, including non-AMD Compatible Third Party Scripts in your project, and optimizing all of your JavaScript (minify, concatenate, etc).",
+  "version": "1.4.1",
+  "homepage": "https://github.com/nickpack/Backbone-Require-Boilerplate-Lite",
+  "author": {
+    "name": "Nick Pack",
+    "email": "nick@nickpack.com",
+    "url": "http://0xdeadfa11.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nickpack/Backbone-Require-Boilerplate-Lite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nickpack/Backbone-Require-Boilerplate-Lite/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/nickpack/Backbone-Require-Boilerplate-Lite/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "./server/server",
+  "keywords": [
+    "Backbone.js",
+    "Require.js",
+    "Backbone and Require Boilerplate"
+  ],
+  "devDependencies": {
+    "express": "3.x",
+    "grunt": "~0.4.1",
+    "grunt-contrib-requirejs": "~0.4.0",
+    "grunt-contrib-jshint": "~0.3.0",
+    "uglify-js": "~2.2.5"
+  }
+}
