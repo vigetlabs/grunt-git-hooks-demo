@@ -51,5 +51,6 @@ module.exports = function(grunt) {
   grunt.registerTask('test', ['jshint']);
   grunt.registerTask('build', ['requirejs:mainJS', 'requirejs:mainCSS']);
   grunt.registerTask('default', ['test', 'build']);
+  grunt.registerTask('pre-commit', 'jshint');
 
 };
