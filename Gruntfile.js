@@ -37,20 +37,14 @@ module.exports = function(grunt) {
           document: true
         }
       }
-    },
-    githooks: {
-      all: {
-        'pre-commit': 'test'
-      }
     }
   });
 
-  grunt.loadNpmTasks('grunt-githooks');
   grunt.loadNpmTasks('grunt-contrib-requirejs');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.registerTask('test', ['jshint']);
   grunt.registerTask('build', ['requirejs:mainJS', 'requirejs:mainCSS']);
   grunt.registerTask('default', ['test', 'build']);
-  grunt.registerTask('pre-commit', 'jshint');
+  grunt.registerTask('pre-commit', 'test'); // `grunt pre-commit` in .git/hooks/pre-commit
 
 };
