@@ -12,6 +12,8 @@ define(["jquery", "backbone", "models/Model", "text!templates/heading.html"],
             // View constructor
             initialize: function() {
 
+                // var disallowed_style = "notCamelCase";
+
                 // Calls the view's render method
                 this.render();
 

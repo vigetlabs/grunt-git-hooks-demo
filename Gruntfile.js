@@ -50,9 +50,9 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-requirejs');
   grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-githooks');
   grunt.registerTask('test', ['jshint']);
   grunt.registerTask('build', ['requirejs:mainJS', 'requirejs:mainCSS']);
-  grunt.registerTask('default', ['test', 'build']);
-  grunt.loadNpmTasks('grunt-githooks');
+  grunt.registerTask('default', ['githooks', 'test', 'build']);
 
 };
