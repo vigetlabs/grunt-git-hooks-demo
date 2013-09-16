@@ -1,4 +1,4 @@
-Explanatory blog post for this demo is available on [Viget.com](http://viget.com/extend)
+Explanatory blog post for this demo is available on [Viget.com](http://viget.com/extend/grunt-getting-started-with-git-hooks)
 
 ## Project Setup via [Backbone-Require-Boilerplate-Lite](https://github.com/BoilerplateMVC/Backbone-Require-Boilerplate-Lite)
    1. Download and install [Node.js](http://nodejs.org/#download)
