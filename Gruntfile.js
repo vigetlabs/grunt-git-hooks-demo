@@ -41,7 +41,7 @@ module.exports = function(grunt) {
     githooks: {
       all: {
         options: {
-          template: 'hooks/pre-commit.js.hb'
+          template: 'hooks/pre-commit.js'
         },
         'pre-commit': 'test'
       }
