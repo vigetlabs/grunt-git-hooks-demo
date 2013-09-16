@@ -1,6 +1,6 @@
 Explanatory blog post for this demo is available on [Viget.com](http://viget.com/extend)
 
-## Getting Started with [Backbone-Require-Boilerplate-Lite](https://github.com/BoilerplateMVC/Backbone-Require-Boilerplate-Lite)
+## Project Setup via [Backbone-Require-Boilerplate-Lite](https://github.com/BoilerplateMVC/Backbone-Require-Boilerplate-Lite)
    1. Download and install [Node.js](http://nodejs.org/#download)
    2. Clone this repository
    3. On the command line, type `npm install nodemon -g` to install the [nodemon](https://github.com/remy/nodemon) library globally.  If it complains about user permissions type `sudo npm install nodemon -g`.
