@@ -15,9 +15,9 @@
   <meta name="description" content="Backbone.js and Require.js Boilerplate Library">
 
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
-  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width"> 
+  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
 
-  <!--Detect if the browser is a mobile browser or a desktop browser and conditionally include your JavaScript --> 
+  <!--Detect if the browser is a mobile browser or a desktop browser and conditionally include your JavaScript -->
   <script>
       (function(ua, w, d, undefined) {
 
@@ -51,9 +51,9 @@
             for(x = 0; x <= urls.length - 1; x += 1) {
 
               link = d.createElement("link");
-          
+
               link.type = "text/css";
-    
+
               link.rel = "stylesheet";
 
               link.href = urls[x];
@@ -75,7 +75,7 @@
               file = files[x];
 
               script = d.createElement("script");
-            
+
               if(((typeof file).toLowerCase()) === "object" && file["data-main"] !== undefined) {
 
                 script.setAttribute("data-main", file["data-main"]);
@@ -118,7 +118,7 @@
               });
 
             }
-            
+
             // Else if your app is in development mode
             else {
 
@@ -145,9 +145,10 @@
 
 </head>
 <body>
-  
+
     <header data-role="header">
       <h1>Backbone-Require-Boilerplate (BRB)</h1>
+      <a href="https://github.com/nickpack/Backbone-Require-Boilerplate-Lite">https://github.com/nickpack/Backbone-Require-Boilerplate-Lite</a>
     </header> <!-- /header -->
 
     <div class="example"></div>
