@@ -1,7 +1,7 @@
 var exec = require('child_process').exec;
 // https://npmjs.org/package/execSync
 // Executes shell commands synchronously
-var sh = require('exec-sync');
+var sh = require('execSync').run;
 
 exec('git diff --cached --quiet', function (err, stdout, stderr) {
 

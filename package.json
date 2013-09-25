@@ -35,7 +35,7 @@
     "grunt-contrib-jshint": "~0.3.0",
     "uglify-js": "~2.2.5",
     "grunt-githooks": "~0.1.0",
-    "exec-sync": "~0.1.6"
+    "execSync": "~1.0.1-pre"
   },
   "dependencies": {}
 }
